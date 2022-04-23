@@ -6,8 +6,7 @@ const Home = () => {
         <>
             <section>
                 <div>
-                    Teste
-                        
+                    <p>Teste Home</p>                        
                     
                 </div>
             </section>
