@@ -4,7 +4,10 @@ import "./Footer.css";
 export default function Footer() {
     return (
         <footer className="Footer">
-            <p>Teste Footer</p>
+            <div className="rodape__desenvolvido">
+                <p>Desenvolvido por Marcos Capiberibe</p>
+                <p>Copyright © 2022</p>
+            </div>
         </footer>
     )
 }
