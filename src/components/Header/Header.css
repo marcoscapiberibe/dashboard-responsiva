@@ -4,4 +4,11 @@
     width: 100%;
     height: 91px;
     background: #9e869e;
+
+}
+
+.conteudo-header {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
