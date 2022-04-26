@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import './index.css';
 import PieChart from "./pages/ApexCharts/PieChart";
+import AngleCircleChart from "./pages/ApexCharts/AngleCircleChart";
 
 const Body = (props) => {
     return (
@@ -15,6 +16,7 @@ const Body = (props) => {
                         <p>Pie Chart (Update Donut)</p>
                         <div>
                             <PieChart className="piechart-item" />
+                            <AngleCircleChart className="anglecirclechart-item" />
                         </div>
                     </div>
                 </section>

@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import PieChart from "./pages/ApexCharts/PieChart";
+import AngleCircleChart from "./pages/ApexCharts/AngleCircleChart";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Header></Header>
           <Route exact path="/" component={Home} />
           <Route exact path="/" component={PieChart} />
+          <Route exact path="/" component={AngleCircleChart} />
           <Footer />
         </Body>
         
