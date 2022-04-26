@@ -11,15 +11,19 @@ const Body = (props) => {
         <>
             <Header />
             <Home />
-                <section>
-                    <div>
+            <section className="charts">
+
+                <div className="piechart">
+                    <div className="grafico-titulo">
                         <p>Pie Chart (Update Donut)</p>
-                        <div>
-                            <PieChart className="piechart-item" />
-                            <AngleCircleChart className="anglecirclechart-item" />
-                        </div>
                     </div>
-                </section>
+                    <PieChart className="piechart-item" />
+                </div>
+                <div className="anglecircle">
+                    <AngleCircleChart className="anglecirclechart-item" />
+
+                </div>
+            </section>
             <Footer />
         </>
     )
