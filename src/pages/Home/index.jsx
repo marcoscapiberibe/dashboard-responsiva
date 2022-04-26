@@ -6,7 +6,7 @@ const Home = () => {
         <>
             <section>
                 <div>
-                    <p>Teste Home</p>                        
+                    <p>Gráficos ApexCharts</p>                        
                     
                 </div>
             </section>

@@ -10,9 +10,14 @@ const Body = (props) => {
         <>
             <Header />
             <Home />
-                <div>
-                    <PieChart className="piechart-item" />
-                </div>
+                <section>
+                    <div>
+                        <p>Pie Chart (Update Donut)</p>
+                        <div>
+                            <PieChart className="piechart-item" />
+                        </div>
+                    </div>
+                </section>
             <Footer />
         </>
     )
