@@ -7,7 +7,7 @@ class App extends Component {
 
         this.state = {
 
-            series: [76, 67, 90, 43],
+            series: [76, 67, 90, 57],
             options: {
                 chart: {
                     height: 390,
@@ -39,10 +39,10 @@ class App extends Component {
                 legend: {
                     show: true,
                     floating: true,
-                    fontSize: '16px',
+                    fontSize: '12px',
                     position: 'left',
                     offsetX: 160,
-                    offsetY: 15,
+                    offsetY: -5,
                     labels: {
                         useSeriesColors: true,
                     },
@@ -78,7 +78,7 @@ class App extends Component {
 
 
             <div id="chart">
-                <Chart options={this.state.options} series={this.state.series} type="radialBar" height={390} />
+                <Chart options={this.state.options} series={this.state.series} type="radialBar" height={300} />
             </div>
 
 

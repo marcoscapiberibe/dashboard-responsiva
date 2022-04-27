@@ -19,9 +19,12 @@ const Body = (props) => {
                     </div>
                     <PieChart className="piechart-item" />
                 </div>
-                <div className="anglecircle">
-                    <AngleCircleChart className="anglecirclechart-item" />
 
+                <div className="anglecircle">
+                    <div className="grafico-titulo">
+                    <p>Angle Circle</p>
+                    </div>
+                    <AngleCircleChart className="anglecirclechart-item" />
                 </div>
             </section>
             <Footer />
