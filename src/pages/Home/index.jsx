@@ -4,9 +4,9 @@ import "./Home.css";
 const Home = () => {
     return (
         <>
-            <section>
-                <div>
-                    <p>Gráficos ApexCharts</p>                        
+            <section className="home">
+                <div className="conteudo-home">
+                    <p className="item-home">Gráficos ApexCharts</p>                        
                     
                 </div>
             </section>
