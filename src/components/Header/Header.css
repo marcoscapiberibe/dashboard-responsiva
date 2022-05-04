@@ -18,11 +18,16 @@
 }
 
 
-@media(min-width: 769px)  {
-
-  
+@media screen and (min-width: 250px)  {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 130px;
+        width: 100%;
+    }
+    
   }
   
-  @media(min-width: 1000px) {
+  @media screen and (min-width: 1000px) {
     
   }
