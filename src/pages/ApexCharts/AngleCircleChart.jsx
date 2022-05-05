@@ -10,7 +10,7 @@ class App extends Component {
             series: [76, 67, 90, 57],
             options: {
                 chart: {
-                    height: 390,
+                    height: 370,
                     type: 'radialBar',
                 },
                 plotOptions: {
@@ -20,7 +20,7 @@ class App extends Component {
                         endAngle: 270,
                         hollow: {
                             margin: 5,
-                            size: '30%',
+                            size: '20%',
                             background: 'transparent',
                             image: undefined,
                         },
@@ -57,7 +57,7 @@ class App extends Component {
                     }
                 },
                 responsive: [{
-                    breakpoint: 480,
+                    breakpoint: 469,
                     options: {
                         legend: {
                             show: false

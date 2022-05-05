@@ -15,7 +15,7 @@ const Body = (props) => {
 
                 <div className="piechart">
                     <div className="grafico-titulo">
-                        <p>Pie Chart (Update Donut)</p>
+                        <p className="grafico-titulo-item">Pie Chart (Update Donut)</p>
                     </div>
                     <PieChart className="piechart-item" />
                 </div>

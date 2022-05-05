@@ -10,14 +10,14 @@ class App extends Component {
           series: [44, 55, 13, 33],
           options: {
             chart: {
-              width: 380,
+              width: 469,
               type: 'donut',
             },
             dataLabels: {
               enabled: false
             },
             responsive: [{
-              breakpoint: 480,
+              breakpoint: 180,
               options: {
                 chart: {
                   width: 200
