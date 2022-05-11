@@ -17,7 +17,7 @@ class App extends Component {
               enabled: false
             },
             responsive: [{
-              breakpoint: 180,
+              breakpoint: 200,
               options: {
                 chart: {
                   width: 200
