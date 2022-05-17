@@ -11,6 +11,9 @@
     margin-top: 15px; 
 }
 
+
+/* Responsividade */
+
 @media screen and (max-width: 469px)  {
     .home {
         margin-top: 20px;
